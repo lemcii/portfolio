@@ -1,5 +1,5 @@
 export default {
-    mode: "spa",
+    modern: "client",
     head: {
         title: "Elliot McIntyre",
         meta: [
@@ -37,10 +37,8 @@ export default {
         ],
     },
     loading: { color: "#f1f3f3" },
-    buildModules: [
-        "@nuxt/typescript-build",
-        "@nuxtjs/eslint-module",
-        "@nuxtjs/tailwindcss",
-    ],
-    modules: ["@nuxtjs/svg"],
+    buildModules: ["@nuxtjs/eslint-module", "@nuxtjs/tailwindcss"],
+    generate: {
+        dir: "public",
+    },
 };

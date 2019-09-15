@@ -8,7 +8,7 @@
     </div>
 </template>
 
-<script lang="ts">
+<script>
 import Keywords from "~/components/Keywords.vue";
 import Banner from "~/components/Banner.vue";
 
