@@ -1,6 +1,8 @@
 <template>
     <div>
-        <div class="flex flex-col md:flex-row md:items-center mb-10">
+        <div
+            class="flex flex-col md:flex-row md:items-center mb-16 sm:mb-10 md:mb-12 lg:mb-10"
+        >
             <div class="flex items-center">
                 <div class="min-w-6 w-8 md:w-10 lg:w-12">
                     <svg
@@ -16,19 +18,26 @@
                 </div>
                 <div class="ml-4 font-semibold">elliotmcintyre.com</div>
             </div>
-            <div class="mt-4 md:ml-4 md:mt-0">
-                <a href="https://nuxtjs.org" target="_blank" class="md:ml-4"
+            <div class="mt-4 md:ml-8 md:mt-0">
+                <a
+                    href="https://www.linkedin.com/in/ell10t"
+                    target="_blank"
+                    class="mr-4"
                     >LinkedIn</a
                 ><a
-                    href="https://github.com/nuxt/nuxt.js"
+                    href="https://github.com/ell10t"
                     target="_blank"
-                    class="ml-4"
+                    class="mr-4"
                     >GitHub</a
                 ><a
-                    href="https://github.com/nuxt/nuxt.js"
+                    href="https://twitter.com/ell10t_"
                     target="_blank"
-                    class="ml-4"
+                    class="mr-4"
                     >Twitter</a
+                ><a
+                    href="https://www.instagram.com/elliot.mcintyre"
+                    target="_blank"
+                    >Instagram</a
                 >
             </div>
         </div>
