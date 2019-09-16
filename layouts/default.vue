@@ -1,9 +1,9 @@
 <template>
-    <div class="h-screen min-h-screen font-mono bg-gray-900 sm:px-10 md:px-24 lg:px-32 xl:pl-20 xl:pr-sm sm:py-8">
-        <div class="h-full min-h-full flex items-center justify-center">
-            <div class="h-full relative max-w-6xl max-h-7xl">
-                <div class="h-full bg-paper relative shadow-2xl sm:-rotate-p1">
-                    <div class="flex flex-col justify-between h-full p-6 sm:px-10 sm:py-12">
+    <div class="min-h-screen font-mono bg-gray-900 sm:px-10 md:px-24 lg:px-32 xl:pl-20 xl:pr-sm sm:py-8">
+        <div class="min-h-full flex items-center justify-center">
+            <div class="min-h-full relative max-w-6xl max-h-7xl">
+                <div class="min-h-full bg-paper shadow-2xl sm:-rotate-p1">
+                    <div class="min-h-full flex flex-col justify-between h-full p-6 sm:px-10 sm:py-12">
                         <div class="flex flex-col flex-grow">
                             <navigation class="mb-6" />
                             <splash class="mb-8" />
