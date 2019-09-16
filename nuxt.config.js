@@ -36,7 +36,7 @@ export default {
             },
         ],
     },
-    loading: { color: "#f1f3f3" },
+    css: ["@/assets/css/base.css"],
     buildModules: ["@nuxtjs/eslint-module", "@nuxtjs/tailwindcss"],
     generate: {
         dir: "public",
