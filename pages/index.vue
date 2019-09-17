@@ -9,7 +9,7 @@
                     <div class="flex flex-col sm:flex-row mb-4 sm:mb-0 sm:items-center mb-1">
                         <div>
                             <span class="font-bold">UI Engineer</span>
-                            @ Inteliflo <em class="italic">i4C Cashflow</em>
+                            @ Intelliflo <em class="italic">i4C Cashflow</em>
                         </div>
                         <hr class="hidden sm:block flex-grow mx-8" />
                         <div><span class="font-thin">2019+</span></div>
@@ -17,7 +17,7 @@
                     <div class="flex flex-col sm:flex-row mb-4 sm:mb-0 sm:items-center mb-1">
                         <div><span class="font-bold">UI Engineer</span> @ i4C Technology</div>
                         <hr class="hidden sm:block flex-grow mx-8" />
-                        <div><span class="font-thin">2017&ndash;2019</span></div>
+                        <div><span class="font-thin">2018&ndash;2019</span></div>
                     </div>
                     <div class="flex flex-col sm:flex-row mb-4 sm:mb-0 sm:items-center mb-1">
                         <div>
