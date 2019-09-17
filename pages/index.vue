@@ -1,7 +1,7 @@
 <template>
     <div class="flex-grow md:order-first">
         <div class="flex lg:h-full max-h-sm">
-            <div class="bg-gradiant-noise md:w-4 lg:w-12 lg:h-full mr-8 hidden md:block" />
+            <div class="bg-gradiant-noise md:w-4 lg:w-12 mr-8 hidden md:block" />
             <div class="flex flex-col sm:justify-between w-full">
                 <!-- todo: jobs/experience comp? -->
                 <div>
