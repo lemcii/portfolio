@@ -27,12 +27,12 @@
                             @ Callcredit <span class="hidden 2xl:inline">Information Group</span>
                         </div>
                         <hr class="hidden sm:block flex-grow mx-8" />
-                        <div><span class="font-thin">2017&ndash;2018</span></div>
+                        <div><span class="font-thin">2016&ndash;2018</span></div>
                     </div>
                     <div class="flex flex-col sm:flex-row mb-4 sm:mb-0 sm:items-center mb-1">
                         <div><span class="font-bold">Software Engineer</span> @ Recipero</div>
                         <hr class="hidden sm:block flex-grow mx-8" />
-                        <div><span class="font-thin">2015&ndash;2017</span></div>
+                        <div><span class="font-thin">2015&ndash;2016</span></div>
                     </div>
                     <div class="flex flex-col sm:flex-row mb-4 sm:mb-0 sm:items-center">
                         <div><span class="font-bold">Junior Engineer</span> @ Recipero</div>
