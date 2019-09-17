@@ -18,7 +18,12 @@
                         <!-- todo: make (optionally responsive) polaroid component -->
                         <div class="bg-gray-100 p-3 pb-20 shadow-md max-w-sm rotate-1">
                             <div class="filter-custom hover:filter-none shadow-inner">
-                                <img width="816" height="612" src="//placekitten.com/816/612" />
+                                <img
+                                    width="816"
+                                    height="612"
+                                    src="//placekitten.com/816/612"
+                                    alt="A picture of a cat"
+                                />
                             </div>
                         </div>
                     </div>
@@ -27,7 +32,7 @@
                     <!-- todo: make (optionally responsive) polaroid component -->
                     <div class="bg-gray-100 p-3 pb-20 shadow-md">
                         <div class="filter-custom hover:filter-none shadow-inner">
-                            <img width="816" height="612" src="//placekitten.com/816/612" />
+                            <img width="816" height="612" src="//placekitten.com/816/612" alt="A picture of a cat" />
                         </div>
                     </div>
                 </div>
