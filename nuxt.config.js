@@ -1,8 +1,5 @@
 export default {
     modern: "client",
-    htmlAttrs: {
-        lang: "en",
-    },
     html: {
         minify: {
             collapseBooleanAttributes: true,
@@ -22,6 +19,9 @@ export default {
     },
     head: {
         title: "Elliot McIntyre",
+        htmlAttrs: {
+            lang: "en",
+        },
         meta: [
             { charset: "utf-8" },
             {
