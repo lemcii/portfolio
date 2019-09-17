@@ -22,6 +22,7 @@ export default {
                 { text: "Bugs" },
                 { text: "C#", redacted: true },
                 { text: "C++", redacted: true },
+                { text: "Cats" },
                 { text: "Code" },
                 { text: "CSS" },
                 { text: "Cypress" },
