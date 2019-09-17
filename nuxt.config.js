@@ -1,5 +1,25 @@
 export default {
     modern: "client",
+    htmlAttrs: {
+        lang: "en",
+    },
+    html: {
+        minify: {
+            collapseBooleanAttributes: true,
+            decodeEntities: true,
+            minifyCSS: true,
+            minifyJS: true,
+            processConditionalComments: true,
+            removeEmptyAttributes: true,
+            removeRedundantAttributes: true,
+            trimCustomFragments: true,
+            useShortDoctype: true,
+            collapseWhitespace: true,
+            conservativeCollapse: true,
+            removeOptionalTags: true,
+            removeComments: true,
+        },
+    },
     head: {
         title: "Elliot McIntyre",
         meta: [
