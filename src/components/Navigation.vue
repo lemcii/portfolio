@@ -13,8 +13,24 @@
             <div class="ml-4 font-semibold">elliotmcintyre.com</div>
         </g-link>
         <div class="mt-4 md:ml-8 md:mt-0">
-            <g-link to="/about" title="About Elliot" class="mr-4">About</g-link>
-            <g-link to="/work" title="Recent Work">Work</g-link>
+            <g-link to="/about" title="About Elliot" active-class="link-active" class="mr-4">About</g-link>
+            <g-link to="/work" title="Recent Work" active-class="link-active">Work</g-link>
         </div>
     </nav>
 </template>
+
+<style scoped>
+.link-active {
+    @apply font-bold;
+
+    background: linear-gradient(to top, theme("colors.links.active.default") 30%, theme("colors.transparent") 40%);
+}
+
+.link-active:hover {
+    background: linear-gradient(to top, theme("colors.links.active.hover") 30%, theme("colors.transparent") 40%);
+}
+
+.link-active:focus {
+    background: linear-gradient(to top, theme("colors.links.active.focus") 30%, theme("colors.transparent") 40%);
+}
+</style>

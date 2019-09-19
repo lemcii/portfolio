@@ -93,6 +93,11 @@ module.exports = {
                         hover: "hsl(330, 100%, 82%)",
                         focus: "hsl(330, 100%, 72%)",
                     },
+                    active: {
+                        default: "hsl(50, 100%, 87%)",
+                        hover: "hsl(50, 100%, 78%)",
+                        focus: "hsl(50, 100%, 70%)",
+                    },
                     external: {
                         default: "hsl(200, 100%, 87%)",
                         hover: "hsl(200, 100%, 82%)",
@@ -137,7 +142,5 @@ module.exports = {
         },
     },
     variants: {},
-    plugins: [
-        require("tailwindcss-transforms"),
-    ],
+    plugins: [require("tailwindcss-transforms")],
 };
