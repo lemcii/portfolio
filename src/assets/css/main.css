@@ -1,19 +1,12 @@
 @import "./fonts.css";
 @import "./highlight.css";
 
-html,
-body {
-    @apply h-full min-h-full bg-gray-900;
-}
-
-svg > path {
-    fill: theme("colors.gray.800");
-}
-
+/* todo: make hr comp instead */
 hr {
     border-color: theme("colors.gray.700");
 }
 
+/* todo: move all of below to tailwind config */
 .bg-none {
     background: none;
 }
