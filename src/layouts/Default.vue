@@ -18,26 +18,23 @@
                     </footer>
                 </div>
                 <div class="flex justify-center sm:justify-end xl:hidden px-6 pb-6 sm:px-10 sm:pb-12">
-                    <!-- todo: make polaroid component -->
-                    <div class="bg-gray-100 p-3 pb-20 shadow-md max-w-sm rotate-1">
-                        <div class="filter-custom hover:filter-none shadow-inner">
-                            <g-image
-                                width="816"
-                                height="612"
-                                src="//placekitten.com/816/612"
-                                alt="A picture of a cat"
-                            />
-                        </div>
-                    </div>
+                    <polaroid
+                        class="max-w-sm rotate-1"
+                        width="816"
+                        height="612"
+                        src="//placekitten.com/816/612"
+                        alt="A picture of a cat"
+                    />
                 </div>
             </div>
-            <aside class="absolute hidden xl:block right-8 top-48 -mb-6 -mr-sm max-w-sm rotate-1">
-                <!-- todo: make  polaroid component -->
-                <div class="bg-gray-100 p-3 pb-20 shadow-md">
-                    <div class="filter-custom hover:filter-none shadow-inner">
-                        <g-image width="816" height="612" src="//placekitten.com/816/612" alt="A picture of a cat" />
-                    </div>
-                </div>
+            <aside class="absolute hidden xl:block right-8 top-48 -mb-6 -mr-sm">
+                <polaroid
+                    class="max-w-sm rotate-1"
+                    width="816"
+                    height="612"
+                    src="//placekitten.com/816/612"
+                    alt="A picture of a cat"
+                />
             </aside>
         </div>
     </div>
@@ -46,6 +43,7 @@
 <script>
 import Navigation from "~/components/Navigation.vue";
 import Splash from "~/components/Splash.vue";
+import Polaroid from "~/components/Polaroid.vue";
 import Social from "~/components/Social.vue";
 import Credit from "~/components/Credit.vue";
 
@@ -53,6 +51,7 @@ export default {
     components: {
         Navigation,
         Splash,
+        Polaroid,
         Social,
         Credit,
     },
