@@ -1,32 +1,30 @@
 {
     "name": "elliotmcintyre.com",
-    "version": "1.0.0",
-    "description": "Nuxt.js Portfolio",
     "author": "Elliot McIntyre",
     "private": true,
     "engines": {
         "node": ">=10.16.0"
     },
     "scripts": {
-        "dev": "nuxt",
-        "build": "nuxt build",
-        "generate": "nuxt generate",
-        "start": "nuxt start",
+        "build": "gridsome build",
+        "develop": "gridsome develop",
+        "explore": "gridsome explore",
         "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
     },
+    "dependencies": {
+        "gridsome": "^0.7.0"
+    },
     "devDependencies": {
-        "@nuxtjs/eslint-config": "^1.0.1",
-        "@nuxtjs/eslint-module": "^1.0.0",
-        "@nuxtjs/tailwindcss": "^1.0.0",
-        "@vue/test-utils": "^1.0.0-beta.27",
-        "babel-eslint": "^10.0.1",
         "color": "^3.1.2",
-        "eslint": "^6.1.0",
-        "eslint-config-prettier": "^4.1.0",
-        "eslint-plugin-nuxt": ">=0.4.2",
-        "eslint-plugin-prettier": "^3.0.1",
-        "nuxt": "^2.0.0",
-        "prettier": "^1.16.4",
+        "eslint": "^6.4.0",
+        "eslint-config-prettier": "^6.3.0",
+        "eslint-plugin-gridsome": "^1.3.0",
+        "eslint-plugin-prettier": "^3.1.1",
+        "gridsome-helper-json": "^1.0.3",
+        "gridsome-plugin-tailwindcss": "^2.2.25",
+        "node-sass": "^4.12.0",
+        "prettier": "^1.18.2",
+        "source-map": "^0.7.3",
         "tailwindcss-transforms": "^2.2.0"
     }
 }

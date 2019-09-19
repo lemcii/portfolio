@@ -138,8 +138,6 @@ module.exports = {
     },
     variants: {},
     plugins: [
-        require("tailwindcss-transforms")({
-            "3d": false, // defaults to false
-        }),
+        require("tailwindcss-transforms"),
     ],
 };

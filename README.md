@@ -15,13 +15,12 @@
 # install dependencies
 $ yarn install
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+# serve with hot reload at localhost:8080
+$ yarn develop
 
-# build for production and launch server
+# generate static site
 $ yarn build
-$ yarn start
 
-# generate static project
-$ yarn generate
+# start GraphQL Playground
+$ yarn explore
 ```
