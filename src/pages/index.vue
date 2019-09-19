@@ -4,52 +4,21 @@
             <div class="flex lg:h-full max-h-xs">
                 <div class="bg-gradiant-noise md:w-4 lg:w-12 mr-8 hidden md:block" />
                 <div class="flex flex-col sm:justify-between w-full">
-                    <!-- todo: jobs/experience comp? -->
                     <div>
-                        <!-- todo: loop this mess -->
-                        <div class="flex flex-col sm:flex-row mb-4 sm:mb-0 sm:items-center mb-1">
-                            <div>
-                                <span class="font-bold">UI Engineer</span>
-                                @ Intelliflo
-                                <em class="italic">i4C Cashflow</em>
+                        <template v-for="(job, index) in jobs">
+                            <div :key="index" class="flex flex-col sm:flex-row mb-4 sm:mb-0 sm:items-center mb-1">
+                                <div>
+                                    <span class="font-bold">{{ job.role }}</span>
+                                    @ {{ job.location }}
+                                    <span v-if="job.extended" class="hidden lg:inline">{{ job.extended }}</span>
+                                    <em v-if="job.sector" class="italic">{{ job.sector }}</em>
+                                </div>
+                                <hr class="hidden sm:block flex-grow mx-8" />
+                                <div>
+                                    <span class="font-thin">{{ job.year }}</span>
+                                </div>
                             </div>
-                            <hr class="hidden sm:block flex-grow mx-8" />
-                            <div>
-                                <span class="font-thin">2019+</span>
-                            </div>
-                        </div>
-                        <div class="flex flex-col sm:flex-row mb-4 sm:mb-0 sm:items-center mb-1">
-                            <div><span class="font-bold">UI Engineer</span> @ i4C Technology</div>
-                            <hr class="hidden sm:block flex-grow mx-8" />
-                            <div>
-                                <span class="font-thin">2018&ndash;2019</span>
-                            </div>
-                        </div>
-                        <div class="flex flex-col sm:flex-row mb-4 sm:mb-0 sm:items-center mb-1">
-                            <div>
-                                <span class="font-bold">Software Engineer</span>
-                                @ Callcredit
-                                <span class="hidden 2xl:inline">Information Group</span>
-                            </div>
-                            <hr class="hidden sm:block flex-grow mx-8" />
-                            <div>
-                                <span class="font-thin">2016&ndash;2018</span>
-                            </div>
-                        </div>
-                        <div class="flex flex-col sm:flex-row mb-4 sm:mb-0 sm:items-center mb-1">
-                            <div><span class="font-bold">Software Engineer</span> @ Recipero</div>
-                            <hr class="hidden sm:block flex-grow mx-8" />
-                            <div>
-                                <span class="font-thin">2015&ndash;2016</span>
-                            </div>
-                        </div>
-                        <div class="flex flex-col sm:flex-row mb-4 sm:mb-0 sm:items-center">
-                            <div><span class="font-bold">Junior Engineer</span> @ Recipero</div>
-                            <hr class="hidden sm:block flex-grow mx-8" />
-                            <div>
-                                <span class="font-thin">2014&ndash;2015</span>
-                            </div>
-                        </div>
+                        </template>
                     </div>
                     <keywords class="hidden mt-8 lg:block" />
                 </div>
@@ -67,6 +36,39 @@ export default {
     },
     metaInfo: {
         title: "Hi",
+    },
+    data() {
+        return {
+            jobs: [
+                {
+                    role: "UI Engineer",
+                    location: "Intelliflo",
+                    sector: "i4C Cashflow",
+                    year: "2019+",
+                },
+                {
+                    role: "UI Engineer",
+                    location: "i4C Technology",
+                    year: "2018-2019",
+                },
+                {
+                    role: "Software Engineer",
+                    location: "Callcredit",
+                    extended: "Information Group",
+                    year: "2016-2018",
+                },
+                {
+                    role: "Software Engineer",
+                    location: "Recipero",
+                    year: "2015-2016",
+                },
+                {
+                    role: "Junior Engineer",
+                    location: "Recipero",
+                    year: "2014-2015",
+                },
+            ],
+        };
     },
 };
 </script>
