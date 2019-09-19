@@ -15,6 +15,9 @@
         "gridsome": "^0.7.0"
     },
     "devDependencies": {
+        "@gridsome/plugin-sitemap": "^0.2.2",
+        "@gridsome/source-filesystem": "^0.6.0",
+        "@gridsome/transformer-remark": "^0.3.3",
         "color": "^3.1.2",
         "eslint": "^6.4.0",
         "eslint-config-prettier": "^6.3.0",

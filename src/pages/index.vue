@@ -1,5 +1,9 @@
 <template>
     <layout>
+        <div class="invisible" aria-hidden="false">
+            <h1>Elliot McIntyre</h1>
+            <h2>UI Engineer</h2>
+        </div>
         <div class="flex-grow md:order-first mb-8">
             <div class="flex lg:h-full max-h-xs">
                 <div class="bg-gradiant-noise md:w-4 lg:w-12 mr-8 hidden md:block" />

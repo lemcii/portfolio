@@ -7,10 +7,13 @@
 module.exports = {
     siteName: "Elliot McIntyre",
     siteDescription:
-        "Elliot is currently fully utilizing his experiences to build a demonstrated history of software, which has helped forge cashflow, crime, trade, and property tracking services such as i4C Cashflow, NMPR, CheckMEND, Immobilise and ReportMyLoss",
+        "Elliot is utilizing his experience to build a demonstrated history of software, which has helped forge cashflow, crime, trade, and property tracking services such as i4C Cashflow, NMPR, CheckMEND, Immobilise, and ReportMyLoss",
     plugins: [
         {
             use: "gridsome-plugin-tailwindcss",
+        },
+        {
+            use: "@gridsome/plugin-sitemap",
         },
     ],
 };
