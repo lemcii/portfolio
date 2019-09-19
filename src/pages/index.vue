@@ -65,5 +65,8 @@ export default {
     components: {
         Keywords,
     },
+    metaInfo: {
+        title: "Hi",
+    },
 };
 </script>
