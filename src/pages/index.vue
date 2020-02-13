@@ -1,6 +1,6 @@
 <template>
     <layout>
-        <div class="invisible" aria-hidden="false">
+        <div class="hidden" aria-hidden="false">
             <h1>Elliot McIntyre</h1>
             <h2>UI Engineer</h2>
         </div>
@@ -28,6 +28,13 @@
                 </div>
             </div>
         </div>
+        <p class="mb-4">
+            I'm a full-stack developer that's passionate about code, visual design, always learning and improving,
+            expressing myself through my dedication to my work.
+        </p>
+        <p>
+            Programming isn't just a skill, it's a craft.
+        </p>
     </layout>
 </template>
 
