@@ -12,7 +12,7 @@
                         </header>
                         <slot />
                     </div>
-                    <footer class="mt-auto">
+                    <footer class="mt-auto pt-16">
                         <social class="mb-6" />
                         <credit />
                     </footer>
