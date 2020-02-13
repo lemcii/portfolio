@@ -1,7 +1,7 @@
 <template>
     <nav class="flex flex-col md:flex-row md:items-center">
         <g-link class="flex items-center bg-none" to="/" title="Homepage">
-            <div class="w-6 sm:w-8 lg:w-10 lg:w-12">
+            <div class="min-w-6 sm:w-8 lg:w-10 lg:w-12">
                 <!-- todo: embed globe instead :S -->
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 42 42">
                     <path
@@ -13,8 +13,8 @@
             <div class="ml-4 font-semibold">elliotmcintyre.com</div>
         </g-link>
         <div class="mt-4 md:ml-8 md:mt-0">
-            <g-link to="/about" title="About Elliot" active-class="link-active" class="mr-4">About</g-link>
-            <g-link to="/work" title="Recent Work" active-class="link-active">Work</g-link>
+            <!-- <g-link to="/projects" title="Elliot's Projects" active-class="link-active" class="mr-4">Projects</g-link> -->
+            <g-link to="/journal" title="Elliot's Work Journal" active-class="link-active">Journal</g-link>
         </div>
     </nav>
 </template>
