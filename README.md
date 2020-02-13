@@ -1,6 +1,6 @@
 <div align="center">
     <p>
-        <img src="https://cdn.jsdelivr.net/gh/lemcii/portfolio@master/assets/svg/signature.svg" width="250" alt="Elliot McIntyre">
+        <img src="https://cdn.jsdelivr.net/gh/lemcii/portfolio@master/src/assets/svg/signature.svg" width="250" alt="Elliot McIntyre">
     </p>
 </div>
 <h1>

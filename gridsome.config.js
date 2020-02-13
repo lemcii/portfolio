@@ -13,6 +13,7 @@ module.exports = {
         Post: "/journal/:slug",
         Tag: "/tag/:id",
     },
+    siteUrl: "https://elliotmcintyre.com",
     plugins: [
         {
             use: "gridsome-plugin-tailwindcss",
