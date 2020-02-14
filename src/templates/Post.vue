@@ -52,12 +52,25 @@ query Post ($id: ID!) {
 </page-query>
 
 <style>
-.post p {
-    @apply mb-5;
+.post h1,
+.post h2,
+.post h3,
+.post h4,
+.post h5 {
+    @apply font-semibold pt-3 pb-5;
+}
+
+.post p,
+.post ul {
+    @apply pb-5;
+}
+
+.post ul {
+    @apply ml-5;
 }
 
 .post pre {
-    margin-bottom: 2em;
+    @apply mb-5;
 }
 
 .post code {
