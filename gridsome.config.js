@@ -8,9 +8,9 @@ module.exports = {
     siteName: "Elliot McIntyre",
     siteDescription:
         "Elliot is utilizing his experience to build a demonstrated history of software, which has helped forge cashflow, crime, trade, and property tracking services such as i4C Cashflow, NMPR, CheckMEND, Immobilise, and ReportMyLoss",
-    titleTemplate: "%s – <siteName>",
+    titleTemplate: "%s – Elliot McIntyre",
     templates: {
-        Post: "/journal/:slug",
+        Post: "/journal/:title",
         Tag: "/tag/:id",
     },
     siteUrl: "https://elliotmcintyre.com",
