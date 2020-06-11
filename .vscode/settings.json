@@ -1,9 +1,5 @@
 {
-    "vetur.grammar.customBlocks": {
-        "page-query": "graphql",
-        "static-query": "graphql"
-    },
-    "editor.formatOnSave": true,
-    "vetur.format.defaultFormatter.html": "prettier",
-    "vetur.format.options.tabSize": 4
+  "editor.formatOnSave": true,
+  "vetur.format.defaultFormatter.html": "prettier",
+  "vetur.format.options.tabSize": 2
 }

@@ -1,25 +1,19 @@
 <div align="center">
-    <p>
-        <img src="https://cdn.jsdelivr.net/gh/lemcii/portfolio@master/src/assets/svg/signature.svg" width="250" alt="Elliot McIntyre">
-    </p>
+  <p>
+    <img src="https://cdn.jsdelivr.net/gh/lemcii/portfolio@master/src/assets/svg/signature.svg" width="250" alt="Elliot McIntyre">
+  </p>
 </div>
 <h1>
-    <!-- elliotmcintyre.com -->
+  <!-- elliotmcintyre.com -->
 </h1>
 
 ```bash
 # install dependencies
-$ yarn install
+$ yarn
 
-# serve with hot reload at localhost:8080
-$ yarn develop
+# serve with hot reload at localhost:3000
+$ yarn vitepress
 
 # generate static site
-$ yarn build
-
-# start GraphQL Playground
-$ yarn explore
-
-# manually run linting
-$ yarn lint
+$ yarn vitepress build
 ```

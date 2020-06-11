@@ -1,0 +1,77 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+h1 {
+  @apply font-black text-blue-300;
+}
+
+h2 h3,
+h4 {
+  @apply font-semibold;
+}
+
+h2 {
+  @apply text-pink-300;
+}
+
+h3 {
+  @apply text-orange-300;
+}
+
+h4 {
+  @apply text-yellow-300;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-shadow: 0 0 10px currentColor;
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(45, 55, 72, 0.4);
+}
+
+.content h2 {
+  @apply py-5;
+}
+
+.content h2,
+.content h3,
+.content h4 {
+  @apply pb-5;
+}
+
+.content a {
+  @apply border-b border-current;
+}
+
+.content a:hover {
+  @apply border-b-0;
+}
+
+.content h1 a,
+.content h2 a,
+.content h3 a,
+.content h4 a {
+  @apply border-b-0;
+}
+
+.content p,
+.content ul {
+  @apply mb-5;
+}
+
+.content hr {
+  @apply border-gray-800 mb-5;
+}
+
+.content li {
+  @apply flex items-center;
+}
+
+.content li hr {
+  @apply flex-grow mx-5 mb-0 w-auto;
+}
