@@ -1,85 +1,55 @@
 <template>
-    <layout>
-        <div class="hidden" aria-hidden="false">
-            <h1>Elliot McIntyre</h1>
-            <h2>UI Engineer</h2>
-        </div>
-        <div class="flex-grow md:order-first mb-8">
-            <div class="flex lg:h-full max-h-xs">
-                <div class="bg-gradiant-noise md:w-4 lg:w-12 mr-8 hidden md:block" />
-                <div class="flex flex-col sm:justify-between w-full">
-                    <div>
-                        <template v-for="(job, index) in jobs">
-                            <div :key="index" class="flex flex-col sm:flex-row mb-4 sm:mb-0 sm:items-center mb-1">
-                                <div>
-                                    <span class="font-bold">{{ job.role }}</span>
-                                    @ {{ job.location }}
-                                    <span v-if="job.extended" class="hidden lg:inline">{{ job.extended }}</span>
-                                    <em v-if="job.sector" class="italic">{{ job.sector }}</em>
-                                </div>
-                                <hr class="hidden sm:block flex-grow mx-8" />
-                                <div>
-                                    <span class="font-thin">{{ job.year }}</span>
-                                </div>
-                            </div>
-                        </template>
-                    </div>
-                    <keywords class="hidden mt-8 lg:block" />
-                </div>
-            </div>
-        </div>
-        <p class="mb-4">
-            I'm a full-stack developer that's passionate about code, visual design, always learning and improving,
-            expressing myself through my dedication to my work.
-        </p>
-        <p>
-            Programming isn't just a skill, it's a craft.
-        </p>
-    </layout>
+  <layout>
+    <div v-html="$static.about.content" />
+  </layout>
 </template>
 
-<script>
-import Keywords from "~/components/Keywords.vue";
+<static-query>
+query {
+  about(path: "/content/about/me/") {
+    content
+  }
+}
+</static-query>
 
+<script>
 export default {
-    components: {
-        Keywords,
-    },
-    metaInfo: {
-        title: "Hi",
-    },
-    data() {
-        return {
-            jobs: [
-                {
-                    role: "UI Engineer",
-                    location: "Intelliflo",
-                    sector: "i4C Cashflow",
-                    year: "2019+",
-                },
-                {
-                    role: "UI Engineer",
-                    location: "i4C Technology",
-                    year: "2018-2019",
-                },
-                {
-                    role: "Software Engineer",
-                    location: "Callcredit",
-                    extended: "Information Group",
-                    year: "2016-2018",
-                },
-                {
-                    role: "Software Engineer",
-                    location: "Recipero",
-                    year: "2015-2016",
-                },
-                {
-                    role: "Junior Engineer",
-                    location: "Recipero",
-                    year: "2014-2015",
-                },
-            ],
-        };
-    },
+  metaInfo() {
+    return {
+      title: "Hi",
+    };
+  },
 };
 </script>
+
+<style>
+.content h2 {
+  @apply py-5;
+}
+
+.content h2,
+.content h3,
+.content h4 {
+  @apply pb-5;
+}
+
+.content a {
+  @apply border-b border-current;
+}
+
+.content a:hover {
+  @apply text-white border-b-0;
+}
+
+.content h1 a,
+.content h2 a,
+.content h3 a,
+.content h4 a {
+  @apply border-b-0;
+}
+
+.content p,
+.content ul {
+  @apply mb-5;
+}
+</style>
