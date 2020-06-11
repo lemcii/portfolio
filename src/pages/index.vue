@@ -24,13 +24,12 @@ export default {
 
 <style>
 .content h2 {
-  @apply py-5;
+  @apply mb-4 mt-8;
 }
 
-.content h2,
 .content h3,
 .content h4 {
-  @apply pb-5;
+  @apply mt-0 mb-4;
 }
 
 .content a {
@@ -41,8 +40,7 @@ export default {
   @apply text-white border-b-0;
 }
 
-.content p,
-.content ul {
-  @apply mb-5;
+.content p {
+  @apply mb-4;
 }
 </style>

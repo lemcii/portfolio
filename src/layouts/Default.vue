@@ -1,6 +1,6 @@
 <template>
   <div class="bg-black font-mono text-gray-100">
-    <div class="border-b border-gray-800 bg-gray-900 bg-opacity-50 shadow-lg w-full">
+    <div class="border-b border-gray-800 shadow-lg w-full">
       <div class="flex justify-between p-5 w-full max-w-2xl mx-auto">
         <h1>
           <a class="hover:text-blue-200" href="https://elliotmcintyre.com" title="elliotmcintyre.com">
@@ -14,7 +14,7 @@
         </div>
       </div>
     </div>
-    <div class="content p-5 w-full max-w-2xl mx-auto">
+    <div class="content px-5 w-full max-w-2xl mx-auto">
       <slot />
     </div>
   </div>
