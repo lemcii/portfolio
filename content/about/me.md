@@ -27,7 +27,7 @@ Programming isn't just a skill, it's a craft.
     <hr class="flex-grow border-gray-800 mx-5" />
     2015-2016
 </div>
-<div class="flex items-center">
+<div class="flex items-center mb-5">
     <span><span class="font-bold">Junior Engineer</span> @ Recipero</span>
     <hr class="flex-grow border-gray-800 mx-5" />
     2014-2015

@@ -41,13 +41,6 @@ export default {
   @apply text-white border-b-0;
 }
 
-.content h1 a,
-.content h2 a,
-.content h3 a,
-.content h4 a {
-  @apply border-b-0;
-}
-
 .content p,
 .content ul {
   @apply mb-5;
