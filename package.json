@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "4.0.0",
+  "private": true,
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.2",
+    "autoprefixer": "^10.2.5",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^2.0.3",
+    "tailwindcss-dark-mode": "^1.1.4",
+    "vitepress": "^0.12.2"
+  },
+  "scripts": {
+    "dev": "vitepress dev pages",
+    "serve": "vitepress serve pages",
+    "build": "vitepress build pages"
+  }
+}
