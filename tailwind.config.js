@@ -1,24 +1,12 @@
-const variants = [
-  "responsive",
-  "hover",
-  "focus",
-  "group-hover",
-  "group-focus",
-  "dark",
-  "dark-hover",
-  "dark-group-hover",
-  "dark-even",
-  "dark-odd",
-];
+const variants = ["responsive", "hover", "focus", "group-hover", "group-focus"];
 
 module.exports = {
-  plugins: [require("tailwindcss-dark-mode")()],
   theme: {
     extend: {
       spacing: {
-        "72": "18rem",
-        "84": "21rem",
-        "96": "24rem",
+        72: "18rem",
+        84: "21rem",
+        96: "24rem",
       },
       height: () => ({
         "screen/2": "50vh",
@@ -27,8 +15,22 @@ module.exports = {
         "screen/5": "calc(100vh / 5)",
       }),
       transitionDuration: {
-        "2000": "2000ms",
+        2000: "2000ms",
       },
+    },
+  },
+  purge: {
+    enabled: process.env.NODE_ENV === "production",
+    content: [
+      "./pages/.vitepress/**/*.js",
+      "./pages/.vitepress/**/*.vue",
+      "./pages/.vitepress/**/*.ts",
+      "./pages/**/*.md",
+      "./pages/**/*.vue",
+      "./pages/**/*.js",
+    ],
+    options: {
+      safelist: ["html", "body"],
     },
   },
   variants: {
@@ -43,5 +45,4 @@ module.exports = {
     textDecoration: variants,
     translate: variants,
   },
-  purge: false,
 };

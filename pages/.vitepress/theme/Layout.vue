@@ -38,13 +38,12 @@
       <a
         href="https://github.com/lemcii"
         title="Visit my GitHub profile"
-        class="text-gray-800 hover:text-blue-500 focus:text-blue-600"
+        class="text-gray-800 hover:text-blue-500 focus:text-blue-600 w-10 h-10"
       >
         <svg
           role="img"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 496 512"
-          class="w-10 h-10"
         >
           <path
             fill="currentColor"
